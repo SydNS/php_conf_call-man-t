@@ -12,6 +12,8 @@
     </head>
     <body>
 
+    <div class="card">
+          <div class="card-body">
         <div class="container-fluid" id="loginform">
             <h2 id="logintitle">
                 Sign Up
@@ -56,6 +58,8 @@
               </form>
             
         </div>
+          </div>
+    </div>
        
         <script src="bootstrap.min.js" async defer></script>
         <script src="jquery.min.js" async defer></script>

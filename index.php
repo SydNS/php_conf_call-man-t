@@ -11,7 +11,9 @@
     </head>
     <body>
 
-        <div class="container-fluid" id="loginform">
+        <div class="card">
+          <div class="card-body">
+          <div class="container-fluid" id="loginform">
             <h2 id="logintitle">
                 Login
             </h2>
@@ -34,6 +36,8 @@
                 <a href="signup.php" class="info" id="signuplink">No Account? Create account</a>
               </form>
             
+        </div>
+          </div>
         </div>
 
         
