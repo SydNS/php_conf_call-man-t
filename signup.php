@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+      
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Login</title>
+        <title>Sign Up</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="bootstrap.min.css">
@@ -56,7 +57,7 @@
             
         </div>
        
-        <script src="../bootstrap/js/bootstrap.min.js" async defer></script>
-        <script src="../bootstrap/jquery.min.js" async defer></script>
+        <script src="bootstrap.min.js" async defer></script>
+        <script src="jquery.min.js" async defer></script>
     </body>
 </html>

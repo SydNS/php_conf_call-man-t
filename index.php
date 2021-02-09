@@ -37,7 +37,7 @@
         </div>
 
         
-        <script src="../bootstrap/js/bootstrap.min.js" async defer></script>
-        <script src="../bootstrap/jquery.min.js" async defer></script>
+        <script src="bootstrap.min.js" async defer></script>
+        <script src="jquery.min.js" async defer></script>
     </body>
 </html>
