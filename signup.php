@@ -13,7 +13,7 @@
 
         <div class="container-fluid" id="loginform">
             <h2 id="logintitle">
-                Login
+                Sign Up
             </h2>
             <form action="auth.php"  class="was-validated" method="POST">
                 <div class="form-group">
