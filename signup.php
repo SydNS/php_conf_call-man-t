@@ -50,7 +50,7 @@
                     
                   </div>
                 
-                <button type="submit" class="btn btn-primary"  id="btn1">Login</button>
+                <button type="submit" class="btn btn-primary"  id="btn1">Sign Up</button>
                 <br>
                 <br>
 
