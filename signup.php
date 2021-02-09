@@ -6,8 +6,8 @@
         <title>Login</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../bootstrap/css/auth.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="auth.css">
     </head>
     <body>
 
@@ -51,7 +51,7 @@
                 <br>
                 <br>
 
-                <a href="login.html" class="info" id="signuplink">Have an account ?,Login here </a>
+                <a href="index.php" class="info" id="signuplink">Have an account ?,Login here </a>
               </form>
             
         </div>
