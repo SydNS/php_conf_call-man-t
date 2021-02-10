@@ -50,8 +50,9 @@
                     
                   </div>
                 
-                <button type="submit" class="btn btn-primary"  id="btnsign">Sign Up</button>
-                <br>
+                  <input type="submit" class="btn btn-primary"  id="btnlogin" name="signup_submit" placeholder="Login" >
+                
+                  <br>
                 <br>
 
                 <a href="index.php" class="info" id="signuplink">Have an account ?,Login here </a>
