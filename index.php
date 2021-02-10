@@ -20,7 +20,7 @@
             <h2 id="logintitle">
                 Login
             </h2>
-            <form action="func.php"  class="was-validated" method="POST">
+            <form action="auth.php"  class="was-validated" method="POST">
                 <div class="form-group">
                   <label for="uname">Username:</label>
                   <input type="text" class="form-control" id="uname" placeholder="Enter Username" name="uname" required>
