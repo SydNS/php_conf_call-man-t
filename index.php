@@ -11,13 +11,16 @@
     </head>
     <body style="background-image: url('images/conf5.png')">
 
+  
           <div class="card">
+
+
             <div class="card-body">
           <div class="container-fluid" id="loginform">
             <h2 id="logintitle">
                 Login
             </h2>
-            <form action="auth.php"  class="was-validated" method="POST">
+            <form action="func.php"  class="was-validated" method="POST">
                 <div class="form-group">
                   <label for="uname">Username:</label>
                   <input type="text" class="form-control" id="uname" placeholder="Enter Username" name="uname" required>
@@ -33,7 +36,7 @@
                 </div>
 
                 
-                <button type="submit" class="btn btn-primary"  id="btnlogin">Login</button>
+                <input type="submit" class="btn btn-primary"  id="btnlogin" name="login_submit" placeholder="Login" >
                 <br>
                 <br>
 
