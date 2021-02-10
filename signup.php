@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="bootstrap.min.css">
         <link rel="stylesheet" href="auth.css">
     </head>
-    <body>
+    <body style="background-image: url('images/conf5.png')">
 
     <div class="card">
           <div class="card-body">
@@ -27,13 +27,13 @@
 
                 <div class="form-group">
                     <label for="pwd">Tel:</label>
-                    <input type="tel" class="form-control" id="pwd" placeholder="Enter Telephone Number" name="pswd" required>
+                    <input type="tel" class="form-control" id="pwd" placeholder="Enter Telephone Number" name="tel" required>
                     
                   </div>
 
                   <div class="form-group">
                     <label for="pwd">Residence:</label>
-                    <input type="text" class="form-control" id="pwd" placeholder="Enter Residence" name="pswd" required>
+                    <input type="text" class="form-control" id="pwd" placeholder="Enter Residence" name="residence" required>
                     
                   </div>
 
@@ -46,11 +46,11 @@
 
                 <div class="form-group">
                     <label for="pwd">Confirm Password:</label>
-                    <input type="password" class="form-control" id="pwd" placeholder="Enter Password" name="pswd" required>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter Password" name="pswd2" required>
                     
                   </div>
                 
-                <button type="submit" class="btn btn-primary"  id="btn1">Sign Up</button>
+                <button type="submit" class="btn btn-primary"  id="btnsign">Sign Up</button>
                 <br>
                 <br>
 

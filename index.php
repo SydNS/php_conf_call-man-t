@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="bootstrap.min.css">
         <link rel="stylesheet" href="auth.css">
     </head>
-    <body>
+    <body style="background-image: url('images/conf5.png')">
 
           <div class="card">
             <div class="card-body">
@@ -33,7 +33,7 @@
                 </div>
 
                 
-                <button type="submit" class="btn btn-primary"  id="btn1">Login</button>
+                <button type="submit" class="btn btn-primary"  id="btnlogin">Login</button>
                 <br>
                 <br>
 
