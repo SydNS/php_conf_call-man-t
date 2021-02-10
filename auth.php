@@ -33,8 +33,11 @@ if (isset($_POST['signup_submit'])) {
     $paswd2=$_POST['pswd2'];
 
     if ($paswd!=$paswd2) {
+        
         echo '<script>alert("Password dont Match")</script>';
-        echo "window.open('index.php')";
+        
+        header("Location:signup.php");
+            
           
     }else {
         
@@ -47,7 +50,7 @@ if (mysqli_num_rows($result)==1) {
     header("Location:adminpanel.php");
 
 }else {
-    echo "window.open('index.php')";
+    
     header("Location:index.php");
     echo '<script>alert("Enter Correct Details")</script>';
         
