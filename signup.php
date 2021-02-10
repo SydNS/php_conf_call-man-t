@@ -50,7 +50,7 @@
                     
                   </div>
                 
-                  <input type="submit" class="btn btn-primary"  id="btnlogin" name="signup_submit" placeholder="Login" >
+                  <input type="submit" class="btn btn-primary"  id="btnlogin" name="signup_submit" placeholder="Login" onclick="passwordMatch()" value="Sign Up" >
                 
                   <br>
                 <br>
