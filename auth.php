@@ -21,6 +21,7 @@ if (mysqli_num_rows($result)==1) {
     echo '<script>alert("Enter Correct Details")</script>';
         
 }
+mysqli_close($conn);
 }
 
 
@@ -41,20 +42,16 @@ if (isset($_POST['signup_submit'])) {
           
     }else {
         
-$query="";
 
-$result=mysqli_query($conn,$query);
-
-if (mysqli_num_rows($result)==1) {
-   
-    header("Location:adminpanel.php");
-
-}else {
-    
-    header("Location:index.php");
-    echo '<script>alert("Enter Correct Details")</script>';
+        $sql = "INSERT INTO `user_details` (`id`, `username`, `password`, `telephone`, `class`, `school`, `residence`) VALUES (NULL, 'syd nsiimbe', 'sydney', '0701234567', 'p8', 'Kps', 'Kla');";
         
-}
+        if (mysqli_query($conn, $sql)) {
+            echo "New record created successfully";
+        } else {
+            echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+        }
+        
+        mysqli_close($conn);
         
     }
 
