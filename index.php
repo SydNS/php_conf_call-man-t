@@ -36,7 +36,7 @@
                 </div>
 
                 
-                <input type="submit" class="btn btn-primary"  id="btnlogin" name="login_submit" placeholder="Login" >
+                <input type="submit" class="btn btn-primary"  id="btnlogin" name="login_submit" value="Log in"  >
                 <br>
                 <br>
 
