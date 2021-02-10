@@ -34,14 +34,14 @@ if (isset($_POST['signup_submit'])) {
 
     if ($paswd!=$paswd2) {
         
-        echo '<script>alert("Password dont Match")</script>';
+        echo '<script>alert("Passwords dont Match")</script>';
         
         header("Location:signup.php");
             
           
     }else {
         
-$query="select * from users_login_tb where username='$uname' and password='$paswd'";
+$query="";
 
 $result=mysqli_query($conn,$query);
 
