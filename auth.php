@@ -1,7 +1,5 @@
 <?php 
-
-$conn = mysqli_connect('localhost','root','','conference_db');
-
+include_once('conn.php');
 if (isset($_POST['login_submit'])) {
 
     $uname=$_POST['uname'];
