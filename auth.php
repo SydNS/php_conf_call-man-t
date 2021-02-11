@@ -29,12 +29,14 @@ if (isset($_POST['signup_submit'])) {
 
     $uname=$_POST['uname'];
     $tel=$_POST['tel'];
+    $class=$_POST['class'];
+    $school=$_POST['school'];
     $residence=$_POST['residence'];
     $paswd=$_POST['pswd'];
     $paswd2=$_POST['pswd2'];
 
-    $sql = 'insert into user_details ( username, password,telephone,class, school, residence) VALUES ("syd nsiimbe", "sydney", 0701234567, "p8","Kps","Klac");';
-    $sqlogin = 'insert into users_login_tb ( username, password) VALUES ("syd nsiimbe", "sydney");';
+    $sql = "insert into user_details ( username, password,telephone,class, school, residence) VALUES ('$uname' ,'$paswd', '$tel', '$class' , '$school', '$residence');";
+    $sqlogin = "insert into users_login_tb ( username, password) VALUES ('$uname', '$paswd');";
         
     if ($paswd!=$paswd2) {
         
