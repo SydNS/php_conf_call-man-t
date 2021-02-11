@@ -43,15 +43,21 @@ if (isset($_POST['signup_submit'])) {
     }else {
         
 
-        $sql = "INSERT INTO `user_details` (`id`, `username`, `password`, `telephone`, `class`, `school`, `residence`) VALUES (NULL, 'syd nsiimbe', 'sydney', '0701234567', 'p8', 'Kps', 'Kla');";
+        $sql = 'insert into user_details ( username, password,telephone,class, school, residence) VALUES ("syd nsiimbe", "sydney", 0701234567, "p8","Kps","Klac");';
+        $sqlogin = 'insert into users_login_tb ( username, password) VALUES ("syd nsiimbe", "sydney");';
         
-        if (mysqli_query($conn, $sql)) {
-            echo "New record created successfully";
+        if (mysqli_query($conn, $sql) && mysqli_query($conn, $sqlogin)) {
+            if (mysqli_query($conn, $sql) && mysqli_query($conn, $sqlogin)) {
+            header("Location:index.php");
+
+            echo "<script> alert('New record created successfully')</script>";
         } else {
             echo "Error: " . $sql . "<br>" . mysqli_error($conn);
         }
         
         mysqli_close($conn);
+
+        
         
     }
 
