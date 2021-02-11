@@ -67,7 +67,11 @@ if (isset($_POST['signup_submit'])) {
 
    
         }
-        mysqli_close($conn); 
+    } 
+      
+    
+    mysqli_close($conn); 
+}
 
 
 
