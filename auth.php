@@ -27,8 +27,6 @@ mysqli_close($conn);
 
 if (isset($_POST['signup_submit'])) {
 
-
-
     $uname=$_POST['uname'];
     $tel=$_POST['tel'];
     $residence=$_POST['residence'];
@@ -45,9 +43,8 @@ if (isset($_POST['signup_submit'])) {
         header("Location:signup.php");
             
     }else {
-        
-            
-            if (mysqli_query($conn, $sql) && mysqli_query($conn, $sqlogin)) {
+
+            if (mysqli_query($conn, $sql) && mysqli_query($conn, $sqlogin)){
 
                     header("Location:index.php");
 
@@ -61,12 +58,6 @@ if (isset($_POST['signup_submit'])) {
 
         
         
-                
-     
-
-
-   
-        }
     } 
       
     
